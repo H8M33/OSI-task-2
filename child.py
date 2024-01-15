@@ -12,5 +12,5 @@ time.sleep(t)
 
 exit_status = random.randint(0, 1)
 print(f"Child[{pid}]: I am ended. PID {pid}. Parent PID {ppid}.")
-os.exit(exit_status)
+os._exit(exit_status)
 
